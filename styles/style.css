@@ -1,0 +1,41 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  min-height: 95vh;
+  background-color: rgb(161, 197, 228);
+  display: grid;
+  justify-content: center;
+}
+
+.container {
+  width: 500px;
+}
+
+.headings {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: space-evenly;
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+button {
+  display: block;
+  margin:2em auto;
+  padding: 0.5em;
+  background-color: rgba(255, 255, 255, 0.87);
+  width: fit-content;
+}
+
+#canvas {
+  margin-top: 1em;
+  background-color: rgba(29, 52, 88, 0.87);
+}
+
